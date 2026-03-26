@@ -1,35 +1,124 @@
+/* RESET */
 body {
     margin: 0;
-    font-family: system-ui;
-    background: #0f172a;
-    color: white;
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #0b0b0f;
+    color: #f5f5f5;
 }
 
+/* HEADER */
 header {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    background: #020617;
+    padding: 20px 40px;
+    background: rgba(10,10,15,0.8);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
 }
 
 nav a {
-    margin-left: 20px;
-    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+    color: #f5f5f5;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff6b00;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    background: linear-gradient(90deg, #ff3c00, #ff8c00, #ffd000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* TIMELINE */
+.timeline {
+    max-width: 900px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(#ff3c00, #ffd000);
+}
+
+.timeline-item {
+    width: 50%;
+    padding: 20px;
+    position: relative;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.6s;
+}
+
+.timeline-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.timeline-item:nth-child(odd) {
+    left: 0;
+    text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+    left: 50%;
+}
+
+.timeline-content {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    transition: 0.3s;
+}
+
+.timeline-content:hover {
+    transform: scale(1.03);
+    border-color: #ff6b00;
+}
+
+.timeline-content .date {
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+.timeline-content a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff8c00;
     text-decoration: none;
 }
 
-.hero {
-    text-align: center;
-    padding: 100px 20px;
+/* CURSOR */
+.cursor {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #ff8c00;
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: 0.1s;
 }
 
-section {
-    padding: 60px 20px;
-}
-
-.project, .event {
-    background: #1e293b;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
+.cursor.hover {
+    transform: translate(-50%, -50%) scale(2);
+    background: rgba(255,140,0,0.2);
 }
