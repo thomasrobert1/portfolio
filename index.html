@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="pageTitle">Portfolio — Étudiant Ingénieur</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════ NAVBAR ═══════════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">TR<span class="accent">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about"    data-i18n="navAbout">À propos</a></li>
+        <li><a href="#skills"   data-i18n="navSkills">Compétences</a></li>
+        <li><a href="#timeline" data-i18n="navTimeline">Parcours</a></li>
+        <li><a href="#projects" data-i18n="navProjects">Projets</a></li>
+        <li><a href="#contact"  data-i18n="navContact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="lang-toggle">
+          <button class="lang-btn active" data-lang="fr" aria-label="Français">
+            <img src="https://flagcdn.com/w40/fr.png" alt="FR" />
+            <span>FR</span>
+          </button>
+          <button class="lang-btn" data-lang="en" aria-label="English">
+            <img src="https://flagcdn.com/w40/gb.png" alt="EN" />
+            <span>EN</span>
+          </button>
+        </div>
+        <button class="menu-burger" id="menuBurger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile nav overlay -->
+  <div class="mobile-nav" id="mobileNav">
+    <ul>
+      <li><a href="#about"    data-i18n="navAbout"    class="mobile-link">À propos</a></li>
+      <li><a href="#skills"   data-i18n="navSkills"   class="mobile-link">Compétences</a></li>
+      <li><a href="#timeline" data-i18n="navTimeline" class="mobile-link">Parcours</a></li>
+      <li><a href="#projects" data-i18n="navProjects" class="mobile-link">Projets</a></li>
+      <li><a href="#contact"  data-i18n="navContact"  class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ═══════════════════════════════════════ HERO ═══════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-glow"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal" data-i18n="heroEyebrow">Étudiant Ingénieur aux Arts-et-Métiers</p>
+      <h1 class="hero-name reveal delay-1">Thomas<br><span class="accent-text">ROBERT</span></h1>
+      <p class="hero-tagline reveal delay-2" data-i18n="heroTagline">
+        Passionné de technologie, de code et d'innovation.<br>
+        À la recherche de nouveaux défis et opportunités.
+      </p>
+      <div class="hero-cta reveal delay-3">
+        <a href="#projects" class="btn-primary" data-i18n="heroCTA">Voir mes projets</a>
+        <a href="#contact"  class="btn-ghost"   data-i18n="heroContact">Me contacter</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ ABOUT ═══════════════════════════════════════ -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text fade-in">
+          <span class="section-tag" data-i18n="aboutTag">Qui suis-je ?</span>
+          <h2 class="section-title" data-i18n="aboutTitle">À propos de moi</h2>
+          <p data-i18n="aboutP1">
+            Étudiant en <strong>1<sup>ère</sup> année</strong> aux Arts-et-Métiers, je me passionne pour 
+            la mécanique et les systèmes complexes. Ainsi les domaines de l'aérospatial et de l'aéronautique m'attirent particulièrement. 
+            Curieux et rigoureux, j'aime transformer des idées en solutions concrètes pour d'une part améliorer l'existant et d'autre part veiller au respect de la planète.
+          </p>
+          <div class="about-tags">
+            <span class="tag">🎓 École d'Ingénieurs</span>
+            <span class="tag">💻 Développeur</span>
+            <span class="tag">🔬 Chercheur</span>
+            <span class="tag">🌍 Bilingue</span>
+          </div>
+        </div>
+        <div class="about-card fade-in delay-1">
+          <div class="about-avatar">
+            <div class="avatar-placeholder">
+              <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="38" r="22" fill="var(--accent-muted)"/>
+                <ellipse cx="50" cy="85" rx="34" ry="20" fill="var(--accent-muted)"/>
+              </svg>
+            </div>
+          </div>
+          <div class="about-info">
+            <div class="info-item">
+              <span class="info-label" data-i18n="infoLocation">Localisation</span>
+              <span class="info-value">Châlons-en-Champagne, France</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label" data-i18n="infoStatus">Statut</span>
+              <span class="info-value status-badge" data-i18n="infoStatusValue">Disponible</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label" data-i18n="infoEmail">Email</span>
+              <span class="info-value">trobert.compain@gmail.com</span>
+            </div>
+            <a href="#" class="btn-cv" data-i18n="downloadCV">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Télécharger CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ SKILLS ═══════════════════════════════════════ -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag" data-i18n="skillsTag">Expertise</span>
+        <h2 class="section-title" data-i18n="skillsTitle">Compétences</h2>
+      </div>
+      <div class="skills-grid">
+        <!-- Card 1 -->
+        <div class="skill-card fade-in delay-1">
+          <div class="skill-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3 data-i18n="skillDevTitle">Conception Assistée par Ordinateur CAO et programmation</h3>
+          <div class="skill-tags">
+            <span>3DExperience</span><span>CatiaV5</span><span>Fusion3D</span>
+            <span>MatLab</span><span>Python</span>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="skill-card fade-in delay-2">
+          <div class="skill-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3 data-i18n="skillSysTitle">Systèmes & Réseaux</h3>
+          <div class="skill-tags">
+            <span>Linux</span><span>Docker</span><span>Git</span>
+            <span>TCP/IP</span><span>Shell</span>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="skill-card fade-in delay-3">
+          <div class="skill-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          </div>
+          <h3 data-i18n="skillAITitle">IA & Data</h3>
+          <div class="skill-tags">
+            <span>Machine Learning</span><span>PyTorch</span>
+            <span>Pandas</span><span>NumPy</span>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="skill-card fade-in delay-1">
+          <div class="skill-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <h3 data-i18n="skillSoftTitle">Soft Skills</h3>
+          <div class="skill-tags">
+            <span data-i18n="skillTeamwork">Travail d'équipe</span>
+            <span data-i18n="skillLeadership">Leadership</span>
+            <span data-i18n="skillAgile">Méthodes Agile</span>
+            <span data-i18n="skillEnglish">Anglais C1</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ TIMELINE ═══════════════════════════════════════ -->
+  <section id="timeline">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag" data-i18n="timelineTag">Chronologie</span>
+        <h2 class="section-title" data-i18n="timelineTitle">Mon Parcours</h2>
+      </div>
+
+      <!-- Timeline tabs -->
+      <div class="timeline-tabs fade-in">
+        <button class="tab-btn active" data-tab="education" data-i18n="tabEducation">Formation</button>
+        <button class="tab-btn"        data-tab="experience" data-i18n="tabExperience">Expériences</button>
+      </div>
+
+      <!-- EDUCATION TIMELINE -->
+      <div class="timeline-panel active" id="tab-education">
+        <div class="timeline-line"></div>
+
+        <div class="timeline-item left fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-logo">
+              <img src="assets/logos/ensam.svg" alt="ENSAM logo">
+            </div>
+            <span class="timeline-date">2025 — Present</span>
+            <h3 class="timeline-title" data-i18n="edu1Title">Diplôme d'Ingénieur PGE</h3>
+            <p class="timeline-org">Arts-et-Métiers (ENSAM), Châlons-en-Champagne,
+              France
+            </p>
+            <p class="timeline-desc" data-i18n="edu1Desc">
+              Programme Grande École (PGE) en 3 ans, spécialisation en mécanique et systèmes complexes.
+            </p>
+            <div class="timeline-tags">
+              <span>Mécanique des solides</span><span>Mécanique des fluides</span><span>Maths appli.</span><span>Procédés industriels</span><span>Matériaux</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item right fade-in delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-logo">
+              <img src="assets/logos/prepa.png" alt="Lycée logo">
+            </div>
+            <span class="timeline-date">2023 — 2025</span>
+            <h3 class="timeline-title" data-i18n="edu2Title">Classes Préparatoires MPSI/PSI</h3>
+            <p class="timeline-org">Lycée Aux Lazaristes, Lyon, France
+            </p>
+            <p class="timeline-desc" data-i18n="edu2Desc">
+              Formation intensive en mathématiques, physique et sciences de l'ingénieur.
+              Admis en école d'ingénieur via concours national.
+            </p>
+            <div class="timeline-tags">
+              <span>Mathématiques</span><span>Physique-Chimie</span><span>Sciences de l'ingénieur</span><span>Anglais/Allemand</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item left fade-in delay-2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-logo">
+              <img src="assets/logos/bac.svg" alt="Baccalauréat logo">
+            </div>
+            <span class="timeline-date">2021-2023</span>
+            <h3 class="timeline-title" data-i18n="edu3Title">Baccalauréat Général</h3>
+            <p class="timeline-org">Lycée Saint-Éloi, Aix-en-Provence</p>
+            <p class="timeline-desc" data-i18n="edu3Desc">
+              Mention Très Bien, spécialité Mathématiques et Physique-Chimie, option Maths Expertes.
+            </p>
+            <div class="timeline-tags">
+              <span>Mention TB</span><span>Internat</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item right fade-in delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-logo">
+              <img src="assets/logos/null.png" alt="Lycée logo">
+            </div>
+            <span class="timeline-date">2016 — 2021</span>
+            <h3 class="timeline-title" data-i18n="edu2Title">Lycée francais de Berlin</h3>
+            <p class="timeline-org">Berlin, Allemagne
+            </p>
+            <p class="timeline-desc" data-i18n="edu2Desc">
+              Immersion totale en Allemagne, appropriation rapide de la langue et culture allemande. Formation solide en sciences et mathématiques, avec un accent sur les langues vivantes.
+            </p>
+            <div class="timeline-tags">
+              <span>Mathématiques</span><span>Physique-Chimie</span><span>Sciences de l'ingénieur</span><span>Anglais/Allemand</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EXPERIENCE TIMELINE -->
+      <div class="timeline-panel" id="tab-experience">
+        <div class="timeline-line"></div>
+
+        <div class="timeline-item left fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-logo">
+              <img src="assets/logos/entreprise-xyz.svg" alt="Entreprise XYZ logo">
+            </div>
+            <span class="timeline-date" data-i18n="exp1Date">Été 2024 · 3 mois</span>
+            <h3 class="timeline-title" data-i18n="exp1Title">Stage Développeur Full-Stack</h3>
+            <p class="timeline-org">Entreprise XYZ — Paris</p>
+            <p class="timeline-desc" data-i18n="exp1Desc">
+              Développement d'une application web interne. 
+              Stack : React, Node.js, PostgreSQL. Travail en méthode Agile/Scrum.
+            </p>
+            <div class="timeline-tags">
+              <span>React</span><span>Node.js</span><span>PostgreSQL</span><span>Agile</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item right fade-in delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-logo">
+              <img src="assets/logos/association.svg" alt="Association étudiante logo">
+            </div>
+            <span class="timeline-date" data-i18n="exp2Date">2023 — 2024 · Bénévolat</span>
+            <h3 class="timeline-title" data-i18n="exp2Title">Responsable Informatique</h3>
+            <p class="timeline-org" data-i18n="exp2Org">Association étudiante — École</p>
+            <p class="timeline-desc" data-i18n="exp2Desc">
+              Gestion et développement du site de l'association, 
+              organisation d'événements techniques pour les étudiants.
+            </p>
+            <div class="timeline-tags">
+              <span>Web</span><span>Gestion de projet</span><span>Bénévolat</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item left fade-in delay-2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-logo">
+              <img src="assets/logos/startup-abc.svg" alt="Startup ABC logo">
+            </div>
+            <span class="timeline-date" data-i18n="exp3Date">Été 2023 · 2 mois</span>
+            <h3 class="timeline-title" data-i18n="exp3Title">Stage d'Observation</h3>
+            <p class="timeline-org">Startup ABC — Lyon</p>
+            <p class="timeline-desc" data-i18n="exp3Desc">
+              Découverte du monde startup, participation au développement 
+              d'un outil interne de data visualisation.
+            </p>
+            <div class="timeline-tags">
+              <span>Python</span><span>Data Viz</span><span>Startup</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ PROJECTS ═══════════════════════════════════════ -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag" data-i18n="projectsTag">Réalisations</span>
+        <h2 class="section-title" data-i18n="projectsTitle">Mes Projets</h2>
+        <p class="section-subtitle" data-i18n="projectsSubtitle">
+          Quelques projets qui me représentent — académiques, personnels ou associatifs.
+        </p>
+      </div>
+
+      <div class="projects-filter fade-in">
+        <button class="filter-btn active" data-filter="all" data-i18n="filterAll">Tous</button>
+        <button class="filter-btn" data-filter="perso"    data-i18n="filterPerso">Personnel</button>
+        <button class="filter-btn" data-filter="acad"     data-i18n="filterAcad">Académique</button>
+        <button class="filter-btn" data-filter="asso"     data-i18n="filterAsso">Associatif</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card fade-in" data-cat="acad" data-project-id="proj1" title="Voir la fiche projet">
+          <div class="project-img">
+            <div class="project-img-placeholder" style="--hue:190">
+              <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="8" width="44" height="44" rx="4" stroke="currentColor" stroke-width="2"/><polyline points="20 34 26 28 32 34 40 26" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-year">2024-2025</span>
+              <span class="project-type acad" data-i18n="typeAcad">Académique</span>
+            </div>
+            <h3 data-i18n="proj1Title">TIPE: Yaw system pour éoliennes</h3>
+            <p data-i18n="proj1Desc">
+              Conception, réalisation et test d'un système de contrôle de l'orientation (yaw) pour éoliennes domestiques. Résultats prometteurs en conditions réelles, avec une amélioration de l'asservissement du système.
+            </p>
+            <div class="project-tech">
+              <span>Prototype</span><span>Arduino</span><span>Asservissement</span><span>MatLab</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card fade-in delay-1" data-cat="acad" data-project-id="proj2" title="Voir la fiche projet">
+          <div class="project-img">
+            <div class="project-img-placeholder" style="--hue:270">
+              <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="30" cy="30" r="20" stroke="currentColor" stroke-width="2"/><path d="M20 30 Q25 20 30 30 Q35 40 40 30" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-year">2024</span>
+              <span class="project-type acad" data-i18n="typeAcad">Académique</span>
+            </div>
+            <h3 data-i18n="proj2Title">Modèle de classification par IA</h3>
+            <p data-i18n="proj2Desc">
+              Développement d'un réseau de neurones convolutif pour la classification 
+              d'images médicales. Accuracy de 94% sur le dataset de test.
+            </p>
+            <div class="project-tech">
+              <span>Python</span><span>PyTorch</span><span>CNN</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+              <a href="#" class="project-link" data-i18n="linkReport">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Rapport
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card fade-in delay-2" data-cat="asso" data-project-id="proj3" title="Voir la fiche projet">
+          <div class="project-img">
+            <div class="project-img-placeholder" style="--hue:140">
+              <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="14" width="48" height="32" rx="3" stroke="currentColor" stroke-width="2"/><line x1="6" y1="22" x2="54" y2="22" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="18" r="2" fill="currentColor"/><circle cx="18" cy="18" r="2" fill="currentColor"/></svg>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-year">2023</span>
+              <span class="project-type asso" data-i18n="typeAsso">Associatif</span>
+            </div>
+            <h3 data-i18n="proj3Title">Site web de l'association</h3>
+            <p data-i18n="proj3Desc">
+              Refonte complète du site vitrine de l'association étudiante.
+              Design responsive, système CMS intégré, 1 200 visiteurs/mois.
+            </p>
+            <div class="project-tech">
+              <span>HTML/CSS</span><span>JavaScript</span><span>CMS</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link demo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card fade-in delay-1" data-cat="perso" data-project-id="proj4" title="Voir la fiche projet">
+          <div class="project-img">
+            <div class="project-img-placeholder" style="--hue:30">
+              <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 50 L20 20 L30 35 L40 15 L50 50 Z" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-year">2023</span>
+              <span class="project-type perso" data-i18n="typePers">Personnel</span>
+            </div>
+            <h3 data-i18n="proj4Title">Outil de visualisation de données</h3>
+            <p data-i18n="proj4Desc">
+              Dashboard interactif de visualisation de données financières 
+              en temps réel avec recharts et une API REST.
+            </p>
+            <div class="project-tech">
+              <span>React</span><span>D3.js</span><span>API REST</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ CONTACT ═══════════════════════════════════════ -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-inner fade-in">
+        <div class="contact-left">
+          <span class="section-tag" data-i18n="contactTag">Restons en contact</span>
+          <h2 class="section-title" data-i18n="contactTitle">Me contacter</h2>
+          <p data-i18n="contactDesc">
+            Ouvert aux opportunités de stage, d'alternance ou de collaboration.
+            N'hésitez pas à me contacter pour discuter de projets ou d'opportunités.
+          </p>
+          <div class="contact-socials">
+            <a href="https://linkedin.com" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+            <a href="https://github.com" class="social-link" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub
+            </a>
+            <a href="mailto:prenom.nom@email.com" class="social-link" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Email
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name" data-i18n="formName">Nom</label>
+            <input type="text" id="name" name="name" autocomplete="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email" data-i18n="formEmail">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required />
+          </div>
+          <div class="form-group">
+            <label for="subject" data-i18n="formSubject">Objet</label>
+            <input type="text" id="subject" name="subject" required />
+          </div>
+          <div class="form-group">
+            <label for="message" data-i18n="formMessage">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary" data-i18n="formSend">Envoyer le message</button>
+          <p class="form-feedback" id="formFeedback"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ FOOTER ═══════════════════════════════════════ -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-copy" data-i18n="footerCopy">© 2025 Prénom NOM — Tous droits réservés</p>
+        <p class="footer-made" data-i18n="footerMade">Fait avec ❤️ et beaucoup de café ☕</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
