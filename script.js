@@ -703,8 +703,8 @@ const projectData = {
         { type: "image", src: "assets/logos/gadzlab.png", alt: "Photo du projet L'Oréal" }
       ],
       resources: [
-        { text: "Site officiel de Brandstorm", href: "https://www.loreal.com/brandstorm/" },
-        { text: "Page dédiée à Brandstorm sur le site de L'Oréal", href: "https://www.loreal.com/innovation/brandstorm/" }
+        { text: "Site officiel de Brandstorm", href: "https://brandstorm.loreal.com/fr" },
+        { text: "Rapport PDF Brandstorm", href: "assets/logos/brandstorm.pfd" }
       ]
     },
     en: {
@@ -717,8 +717,8 @@ const projectData = {
         { type: "image", src: "assets/logos/gadzlab.png", alt: "L'Oréal Brandstorm project" }
       ],
       resources: [
-        { text: "Official Brandstorm website", href: "https://www.loreal.com/brandstorm/" },
-        { text: "Brandstorm page on L'Oréal's website", href: "https://www.loreal.com/innovation/brandstorm/" }
+        { text: "Official Brandstorm website", href: "https://brandstorm.loreal.com/fr" },
+        { text: "Brandstorm PDF report", href: "assets/logos/brandstorm.pfd" }
       ]
     }
   },
