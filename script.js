@@ -57,7 +57,7 @@ const translations = {
     tabExperience:   "Expériences",
 
     edu1Title:  "Diplôme d'Ingénieur",
-    edu1Desc:   "Programme Grande École (PGE) en 3 ans, spécialisation en mécanique et systèmes complexes.",
+    edu1Desc:   "Programme Grandes Écoles (PGE) en 3 ans, spécialisation en mécanique et systèmes complexes.",
     edu2Title:  "Classes Préparatoires MPSI/PSI",
     edu4Title:  "Lycée francais de Berlin",
     edu4Org:    "Berlin, Allemagne",
@@ -141,22 +141,22 @@ const translations = {
     navContact:      "Contact",
 
     heroEyebrow:     "Engineering Student at Arts et Métiers",
-    heroTagline:     "Passionate about technology and innovation. My curiosity drives me to explore the latest technological advances and apply them in concrete projects.",
-    heroCTA:         "View my projects and commitments",
+    heroTagline:     "Passionate about technology and innovation, I enjoy exploring the latest advances and turning them into concrete projects.",
+    heroCTA:         "Explore my projects and commitments",
     heroContact:     "Contact me",
 
     aboutTag:        "Who am I?",
     aboutTitle:      "About me",
-    aboutP1:         "As a <strong>first-year</strong> student at <strong>Arts et Métiers</strong>, I am passionate about mechanics and complex systems. The fields of aerospace and aeronautics are especially appealing to me. Curious and rigorous, I enjoy turning ideas into concrete solutions, both to improve what already exists and to help protect the planet.",
+    aboutP1:         "As a <strong>first-year</strong> student at <strong>Arts et Métiers</strong>, I am passionate about mechanics and complex systems. I am particularly drawn to aerospace and aeronautics. Curious and rigorous, I enjoy turning ideas into practical solutions — both to improve existing systems and to help protect the planet.",
     interestsTag:    "What drives me",
     interestsTitle:  "Interests & passions",
-    interestsSubtitle:"Areas that fuel my curiosity and inspire my projects every day.",
+    interestsSubtitle:"The areas that fuel my curiosity and inspire my projects every day.",
     interest1Title:  "Aeronautics, space and naval engineering",
-    interest1Desc:   "I am fascinated by embedded systems, precision mechanics and innovations that push technical boundaries further.",
+    interest1Desc:   "I am fascinated by embedded systems, precision mechanics and the innovations that keep pushing technical boundaries.",
     interest2Title:  "Nature and its richness",
-    interest2Desc:   "The richness and diversity of nature fascinate me and push me to think differently in order to preserve our planet. I am passionate about responsible gastronomy as well as oenology, both of which combine pleasure with respect for the environment.",
+    interest2Desc:   "The richness and diversity of nature inspire me to think differently and to help preserve our planet. I am also passionate about responsible gastronomy and oenology, both of which combine enjoyment with environmental awareness.",
     interest3Title:  "Commitment & collective challenges",
-    interest3Desc:   "I enjoy team projects, student life and experiences that combine responsibility, organization and self-improvement.",
+    interest3Desc:   "I enjoy team projects, student life and experiences that combine responsibility, organization and a drive to go further.",
     infoLocation:    "Location",
     infoStatus:      "Status",
     infoStatusValue: "Available",
@@ -170,7 +170,7 @@ const translations = {
     skillAITitle:    "AI & Data",
     skillSoftTitle:  "Soft Skills",
     skillTeamwork:   "Teamwork",
-    skillLeadership: "Management",
+    skillLeadership: "Leadership",
     skillAgile:      "Agile Methods",
     skillEnglish:    "English C1",
     skillGerman:     "German C1",
@@ -183,73 +183,73 @@ const translations = {
     tabExperience:   "Experience",
 
     edu1Title:  "Engineering Degree",
-    edu1Desc:   "Three-year Grande École (PGE) program, specializing in mechanics and complex systems.",
+    edu1Desc:   "Three-year Grandes Écoles engineering program (PGE), with a focus on mechanics and complex systems.",
     edu2Title:  "MPSI/PSI Preparatory Classes",
     edu4Title:  "French High School of Berlin",
     edu4Org:    "Berlin, Germany",
-    edu4Desc:   "Full immersion in Germany, rapid acquisition of the German language and culture. A strong foundation in science and mathematics, with an emphasis on modern languages.",
-    edu2Desc:   "Intensive training in mathematics, physics and engineering sciences. Admitted to engineering school through a national competitive exam.",
-    edu3Title:  "Scientific Baccalaureate",
-    edu3Desc:   "Highest honors, with a specialization in Mathematics and Physics-Chemistry, plus the Advanced Mathematics option.",
+    edu4Desc:   "Full immersion in Germany, with rapid fluency in the language and culture. A strong academic foundation in science and mathematics, with a particular focus on modern languages.",
+    edu2Desc:   "Intensive training in mathematics, physics and engineering sciences, leading to admission to engineering school through a national competitive exam.",
+    edu3Title:  "General Baccalaureate",
+    edu3Desc:   "Graduated with highest honours, specializing in Mathematics and Physics-Chemistry, with the Advanced Mathematics option.",
 
     exp1Date:   "Summer 2023 · 2 months",
     exp4Date:   "2026 - Present",
-    exp4Title:  "Head of the AMJE Quality Division",
-    exp4Org:    "Student association",
-    exp4Desc:   "Head of the Quality Division within Arts-et-Métiers Junior Entreprise (AMJE). Responsible for coordinating the division's 8 members, reviewing deliverables and continuously improving internal processes and performance.",
+    exp4Title:  "Head of Quality — AMJE",
+    exp4Org:    "Arts et Métiers Junior Entreprise (AMJE)",
+    exp4Desc:   "Responsible for deliverable reviews, continuous improvement and coordination with the other divisions to maintain a high level of quality and client satisfaction.",
     exp1Title:  "Summer job — Farm worker",
-    exp1Desc:   "Summer job as a farm worker on a market gardening farm. A rewarding experience in manual work, team management and compliance with safety standards.",
+    exp1Desc:   "Summer work on a market gardening farm — a valuable experience in manual work, team coordination and compliance with safety standards.",
     exp2Date:   "2023 — 2024 · Volunteering",
     exp2Title:  "President of the Strass Fermière association",
     exp2Org:    "Strass Fermière association",
-    exp2Desc:   "Coordination of volunteer activities, event organization, communication and management of agricultural and social projects.",
+    exp2Desc:   "Coordinated volunteer activities, organized events and managed communication around agricultural and social projects.",
     exp3Date:   "Summer 2023 · 2 months",
     exp3Title:  "Observation Internship",
-    exp3Desc:   "Discovery of the startup world, with participation in the development of an internal data visualization tool.",
+    exp3Desc:   "An introduction to the startup world, including participation in the development of an internal data-visualization tool.",
     exp5Date:   "2026 - Present",
-    exp5Title:  "President of the ENSAM farm association",
-    exp5Org:    "Student association",
-    exp5Desc:   "Management of the ENSAM farm association. Distribution of products from local and committed agriculture, with supervision of a 5-person team.",
+    exp5Title:  "Quality Division — AMJE",
+    exp5Org:    "Arts et Métiers Junior Entreprise (AMJE)",
+    exp5Desc:   "In charge of the Quality Division within AMJE: reviewing deliverables and internal documents, implementing quality procedures, monitoring performance and coordinating with the other divisions to support client satisfaction and continuous improvement.",
 
     projectsTag:      "Achievements",
     projectsTitle:    "My Projects",
-    projectsSubtitle: "A few projects that reflect who I am — academic, personal or associative.",
+    projectsSubtitle: "A selection of projects that reflect who I am — academic, personal and community-based.",
     filterAll:  "All",
     filterPerso:"Personal",
     filterAcad: "Academic",
-    filterAsso: "Associative",
+    filterAsso: "Community",
     typePers:   "Personal",
     typeAcad:   "Academic",
-    typeAsso:   "Associative",
-    proj1Title: "TIPE: Yaw system for wind turbines",
-    proj1Desc:  "Design, development and testing of a yaw orientation control system for domestic wind turbines. Promising real-condition results, with improved system control.",
-    proj2Title: "Industrial gearbox",
-    proj2Desc:  "Design, modeling and optimization of an industrial gearbox. Study of a complex set of specifications, selection of the architecture, preliminary sizing and parametric optimization.",
+    typeAsso:   "Community",
+    proj1Title: "TIPE: Yaw Control System for Wind Turbines",
+    proj1Desc:  "Design, development and testing of a yaw control system for small-scale wind turbines. The project delivered promising real-world results and improved system responsiveness.",
+    proj2Title: "Industrial Gear Reducer",
+    proj2Desc:  "Design, modeling and optimization of an industrial gear reducer, from architecture selection and preliminary sizing to parametric optimization.",
     proj3Title: "Grand Défi",
-    proj3Desc:  "Participation in the \"Grand Défi\": group work with my class within a mental health facility in order to brighten the premises and the main courtyard with artistic murals.",
-    proj4Title: "Brandstorm x L'Oréal 2026",
-    proj4Desc:  "Participation in L'Oréal's international marketing and innovation competition. Development of an innovative brand strategy for a new range of sustainable perfumery products, with a focus on inclusivity and ecology.",
+    proj3Desc:  "Participation in the \"Grand Défi\": a collaborative project carried out with my class in a mental health facility to brighten the site with artistic murals.",
+    proj4Title: "L'Oréal Brandstorm 2026",
+    proj4Desc:  "Participation in L'Oréal's international marketing and innovation competition, with the development of an inclusive and sustainable fragrance concept.",
     proj5Title: "FAB/IMP Project",
-    proj5Desc:  "Study of material-process interactions as part of a project involving manufacturing, machining and metrology.",
+    proj5Desc:  "Study of material-process interactions as part of a project combining manufacturing, machining and metrology.",
     proj6Title: "Monaco Energy Boat Challenge (MEBC) 2027",
-    proj6Desc:  "Participation in the Monaco Energy Boat Challenge (MEBC) 2027, an international competition for renewable-energy boats. Design and construction of an electric catamaran prototype, with innovations in energy efficiency and hydrodynamic design.",
-    linkGithub: "MatLab",
+    proj6Desc:  "Participation in the Monaco Energy Boat Challenge (MEBC) 2027, with the design and construction of an electric catamaran prototype focused on energy efficiency and hydrodynamic performance.",
+    linkGithub: "MATLAB",
     linkDemo:   "Demo and tests",
     linkReport: "Presentation (PDF)",
 
     contactTag:   "Let's stay in touch",
     contactTitle: "Contact me",
-    contactDesc:  "Open to internship opportunities. Feel free to contact me to discuss projects or opportunities.",
+    contactDesc:  "I am open to internship opportunities. Feel free to reach out to discuss a project, an opportunity or a collaboration.",
     formName:     "Name",
     formEmail:    "Email",
     formSubject:  "Subject",
     formMessage:  "Message",
     formSend:     "Send message",
-    formSuccess:  "Message sent! I will reply soon.",
+    formSuccess:  "Message sent! I will get back to you soon.",
     formError:    "Please fill in all fields.",
 
-    projectPageTitle: "Project — Details",
-    projectDetailTag: "Project in detail",
+    projectPageTitle: "Project Details",
+    projectDetailTag: "Project details",
     projectProblemTitle: "Problem statement",
     projectMethodTitle: "Methodology",
     projectResultsTitle: "Results",
@@ -259,7 +259,7 @@ const translations = {
     projectNotFound: "Project not found. Return to the projects page.",
 
     footerCopy: "© 2025 Thomas ROBERT — All rights reserved",
-    footerMade: "Engineering Student - Arts et Métiers (ENSAM)",
+    footerMade: "Engineering Student — Arts et Métiers (ENSAM)",
   }
 };
 
@@ -271,12 +271,12 @@ const extraLocalizedContent = {
       2: ["Autonomie", "Responsabilité", "Ouverture d'esprit", "Sens du projet"]
     },
     timelineTags: [
-      ["Immersion", "Club d'échecs", "Cours intensifs d'allemand", "Voyage et découverte du pays"],
-      ["Mention TB", "Internat"],
-      ["Travail manuel", "Gestion d'équipe", "Sécurité"],
       ["Leadership", "Organisation", "Communication"],
+      ["Mécanique des solides", "Mécanique des fluides", "Maths appli.", "Procédés industriels", "Matériaux"],
       ["Mathématiques", "Physique-Chimie", "Sciences de l'ingénieur", "Anglais/Allemand"],
-      ["Mécanique des solides", "Mécanique des fluides", "Maths appli.", "Procédés industriels", "Matériaux"]
+      ["Travail manuel", "Gestion d'équipe", "Sécurité"],
+      ["Mention TB", "Internat"],
+      ["Immersion", "Club d'échecs", "Cours intensifs d'allemand", "Voyage et découverte du pays"]
     ],
     projectTech: [
       ["Prototype", "Arduino", "Asservissement", "MatLab"],
@@ -289,24 +289,24 @@ const extraLocalizedContent = {
     projectCardTitle: "Voir la fiche projet"
   },
   en: {
-    aboutTags: ["🎓 Engineering School", "💻 Ambitious", "🔬 Solution-oriented"],
+    aboutTags: ["🎓 Engineering Student", "💻 Tech-driven", "🔬 Solution-oriented"],
     skillTagGroups: {
       1: ["Mechanics", "Electronics", "Data analysis", "Simulation", "Industrial know-how"],
       2: ["Autonomy", "Responsibility", "Open-mindedness", "Project mindset"]
     },
     timelineTags: [
-      ["Immersion", "Chess club", "Intensive German lessons", "Travel and discovery of the country"],
-      ["Highest honours", "Boarding school"],
-      ["Manual work", "Team management", "Safety"],
       ["Leadership", "Organization", "Communication"],
+      ["Solid mechanics", "Fluid mechanics", "Applied maths", "Industrial processes", "Materials"],
       ["Mathematics", "Physics-Chemistry", "Engineering sciences", "English/German"],
-      ["Solid mechanics", "Fluid mechanics", "Applied maths", "Industrial processes", "Materials"]
+      ["Manual work", "Team coordination", "Safety"],
+      ["Highest honours", "Boarding school"],
+      ["Immersion", "Chess club", "Intensive German lessons", "Travel and cultural discovery"]
     ],
     projectTech: [
-      ["Prototype", "Arduino", "Control systems", "MatLab"],
-      ["CAD", "Fusion360", "Gears", "Optimization"],
-      ["Association", "UMB", "Murals", "Teamwork"],
-      ["L'Oréal", "Marketing", "Innovation", "CAD"],
+      ["Prototype", "Arduino", "Control Systems", "MATLAB"],
+      ["CAD", "Fusion 360", "Gear Design", "Optimization"],
+      ["Community Project", "UMB", "Murals", "Teamwork"],
+      ["L'Oréal", "Marketing", "Innovation", "Design"],
       ["Materials", "Manufacturing", "Metrology", "CAD/CAM"],
       ["Monaco", "Catamaran", "Hydrodynamics", "Energy"]
     ],
@@ -622,11 +622,11 @@ const projectData = {
       ]
     },
     en: {
-      title: "TIPE: Yaw system for wind turbines",
-      subtitle: "Automatic orientation system for domestic wind turbines",
-      problem: "Improve the energy performance of a domestic wind turbine by ensuring automatic wind tracking (yaw).",
-      method: "Implementation of PID control, Arduino prototype with wind simulation, and a sensor (wind vane).",
-      results: "Trade-offs had to be made between precision, speed and stability. The experiments show that the system can improve the wind turbine's energy efficiency while maintaining a rapid response to changes in wind direction.",
+      title: "TIPE: Yaw Control System for Wind Turbines",
+      subtitle: "An automatic yaw control system for small-scale wind turbines",
+      problem: "How can the energy efficiency of a small wind turbine be improved by keeping it automatically aligned with the wind?",
+      method: "Development of a PID-based control loop using an Arduino prototype, a wind-vane sensor and a wind simulation setup.",
+      results: "The project highlighted the trade-off between accuracy, responsiveness and stability. Tests showed that the system can improve energy capture while still reacting quickly to changes in wind direction.",
       media: [
         { type: "video", src: "assets/videotipe.mov", alt: "TIPE demonstration video" }
       ],
@@ -650,13 +650,13 @@ const projectData = {
       ]
     },
     en: {
-      title: "Industrial gearbox",
-      subtitle: "Design and optimization of the parameters of an industrial gearbox",
-      problem: "Design a high-performance and reliable industrial gearbox that meets the requirements of a complex set of specifications.",
-      method: "Design, modeling and optimization of an industrial gearbox. Study of a complex set of specifications, selection of the architecture, preliminary sizing and parametric optimization.",
-      results: "CAD model of the industrial gearbox.",
+      title: "Industrial Gear Reducer",
+      subtitle: "Design and optimization of an industrial gear reducer",
+      problem: "How can a reliable, high-performance gear reducer be designed to meet a demanding technical brief?",
+      method: "Full design, modeling and optimization of an industrial gear reducer, from architecture selection and preliminary sizing to parametric optimization.",
+      results: "CAD model of the industrial gear reducer.",
       media: [
-        { type: "image", src: "assets/logos/photo-red.png", alt: "Prototype of the industrial gearbox" }
+        { type: "image", src: "assets/logos/photo-red.png", alt: "Industrial gear reducer prototype" }
       ],
       resources: [
 ,
@@ -680,10 +680,10 @@ const projectData = {
     },
     en: {
       title: "Grand Défi",
-      subtitle: "Group work within a mental health facility",
-      problem: "Improve the environment and experience of patients within the facility by brightening the premises and the main courtyard with artistic murals.",
-      method: "A 24-hour immersion within the UMB facility in Châlons-en-Champagne, during which our class created artistic murals to make patients' daily lives more pleasant.",
-      results: "A TV report is available on request. Patients expressed their satisfaction and enthusiasm for the murals, contributing to a more pleasant and stimulating environment.",
+      subtitle: "A collaborative project in a mental health facility",
+      problem: "How can the daily environment for patients be made warmer and more uplifting through large-scale murals?",
+      method: "During a 24-hour immersion at the UMB facility in Châlons-en-Champagne, our year group designed and painted murals to make the site more welcoming for patients.",
+      results: "A TV report is available on request. Feedback from patients was very positive, and the murals helped create a more cheerful and stimulating environment.",
       media: [
         { type: "image", src: "assets/logos/defi.jpeg", alt: "Grand Défi photo" }
       ],
@@ -708,13 +708,13 @@ const projectData = {
       ]
     },
     en: {
-      title: "L'Oréal x Brandstorm 2026",
-      subtitle: "Participation in the Brandstorm 2026 challenge organized by L'Oréal",
-      problem: "How can the perfumery of tomorrow be shaped by integrating new technologies while addressing inclusivity and sustainability?",
-      method: "Starting from an innovative idea, we explored different approaches to integrate new technologies into perfumery while taking inclusivity and sustainability into account. L'Oréal provided a complex brief that we followed to develop our solution. We produced a marketing video, an elevator pitch and a final presentation, and the project continued with CAD work.",
-      results: "Although we were not selected for the final stage, the project allowed us to develop our skills in innovation, presentation and teamwork.",
+      title: "L'Oréal Brandstorm 2026",
+      subtitle: "Entry in L'Oréal's Brandstorm 2026 innovation challenge",
+      problem: "How can the perfumery of tomorrow be reinvented through new technologies while remaining inclusive and sustainable?",
+      method: "Starting from an original concept, we explored several ways of integrating new technologies into perfumery while keeping inclusivity and sustainability at the core. Guided by L'Oréal's brief, we produced a marketing video, an elevator pitch and a final presentation, and extended the project through CAD development.",
+      results: "Although the project did not reach the final stage, it significantly strengthened our skills in innovation, pitching and teamwork.",
       media: [
-        { type: "image", src: "assets/logos/gadzlab.png", alt: "L'Oréal project photo" }
+        { type: "image", src: "assets/logos/gadzlab.png", alt: "L'Oréal Brandstorm project" }
       ],
       resources: [
         { text: "Official Brandstorm website", href: "https://www.loreal.com/brandstorm/" },
@@ -738,10 +738,10 @@ const projectData = {
     },
     en: {
       title: "FAB/IMP Project",
-      subtitle: "Study of material-process interactions",
-      problem: "Understand the impact of manufacturing and machining parameters on material properties and the final quality of the component.",
-      method: "Literature review, additive and subtractive manufacturing tests, metrology measurements, and comparison of CAD/CAM toolpaths.",
-      results: "Recommendations for operating parameters were made to reduce defects, with an 18% improvement in dimensional accuracy thanks to a new inspection protocol.",
+      subtitle: "Exploring material-process interactions",
+      problem: "How do manufacturing and machining parameters affect material properties and the final quality of a component?",
+      method: "Literature review, additive and subtractive manufacturing trials, metrology measurements, and comparison of CAD/CAM toolpaths.",
+      results: "The study led to process recommendations that reduced defects and improved dimensional accuracy by 18% thanks to a new inspection protocol.",
       media: [
         { type: "image", src: "assets/logos/fabimp.png", alt: "FAB/IMP project visual" }
       ],
@@ -767,10 +767,10 @@ const projectData = {
     },
     en: {
       title: "Monaco Energy Boat Challenge (MEBC) 2027",
-      subtitle: "Renewable-energy electric catamaran prototype",
-      problem: "Design a lightweight and high-performance boat for a demanding international competition focused on energy efficiency.",
-      method: "Hydrodynamic CAD design, structural calculations, CFD simulations and tank tests, as well as the selection of an electric powertrain and a lightweight battery.",
-      results: "The prototype was selected for the final, with measured performance of 17 kWh/100 km and a 15% safety margin relative to the consumption specifications.",
+      subtitle: "A renewable-energy electric catamaran prototype",
+      problem: "How can a lightweight, high-performance boat be designed for a demanding international competition centered on energy efficiency?",
+      method: "Hydrodynamic CAD design, structural calculations, CFD simulations, tank testing, and the selection of an electric drivetrain with a lightweight battery pack.",
+      results: "The prototype qualified for the final, achieving measured consumption of 17 kWh/100 km while maintaining a 15% safety margin against the target specifications.",
       media: [
         { type: "image", src: "assets/logos/equipe.png", alt: "MEBC team" },
         { type: "image", src: "assets/logos/CAOMebc.png", alt: "MEBC CAD model" }
