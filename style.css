@@ -588,18 +588,6 @@ input, textarea { font-family: inherit; }
   transform: translateY(-3px);
 }
 
-.interest-icon {
-  width: 44px;
-  height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: .85rem;
-  background: var(--accent-muted);
-  border-radius: 12px;
-  font-size: 1.15rem;
-}
-
 .interest-card h3 {
   font-family: var(--font-display);
   font-size: .95rem;
